@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>О.Далайцэрэн & Д.Уранбилэг — Гэрлэх ёслолын урилга</title>
+  <meta name="description" content="О.Далайцэрэн, Д.Уранбилэг нарын гэрлэх ёслолын цайллагын урилга. 2026 оны 9 сарын 16-ны 09:00 цагт.">
+  <link rel="canonical" href="https://uuganbayar275-bot.github.io/dalaitseren-uranbileg/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="О.Далайцэрэн & Д.Уранбилэг — Хуримын урилга">
+  <meta property="og:description" content="2026.09.16 • 09:00 • Өвөрхангай аймаг">
+  <meta property="og:url" content="https://uuganbayar275-bot.github.io/dalaitseren-uranbileg/">
+  <meta property="og:image" content="https://uuganbayar275-bot.github.io/dalaitseren-uranbileg/assets/images/preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="О.Далайцэрэн & Д.Уранбилэг — Хуримын урилга">
+  <meta name="twitter:image" content="https://uuganbayar275-bot.github.io/dalaitseren-uranbileg/assets/images/preview.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+  <audio id="music" loop preload="metadata">
+    <source src="assets/audio/wedding-song.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="invitationVoice" preload="auto">
+    <source src="assets/audio/invitation-voice.mp3" type="audio/mpeg">
+  </audio>
+
+  <section class="welcome" id="welcome" aria-label="Урилга нээх хэсэг">
+    <div class="welcome-glow"></div>
+    <div class="envelope-stage" id="envelopeStage">
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter-card">
+          <span class="eyebrow">ГЭРЛЭХ ЁСЛОЛЫН УРИЛГА</span>
+          <div class="letter-ornament">❦</div>
+          <h1>О.Далайцэрэн <i>&</i><br>Д.Уранбилэг</h1>
+          <p>Хүндэт зочин таныг бидний баярт мөчид урьж байна</p>
+          <div class="cover-date">2026 · 09 · 16 &nbsp;|&nbsp; 09:00</div>
+        </div>
+        <div class="envelope-left"></div>
+        <div class="envelope-right"></div>
+        <div class="envelope-bottom"></div>
+        <div class="envelope-flap"></div>
+        <div class="wax-seal">Д<br><small>&</small><br>У</div>
+      </div>
+      <button class="open-btn" id="openInvite" type="button">Захиа нээх</button>
+      <p class="tap-note">Дугтуйн дээр дарж нээнэ үү</p>
+    </div>
+  </section>
+
+  <main id="mainContent">
+    <section class="hero scene scene-hero">
+      <img src="assets/images/photo-1.jpg" alt="О.Далайцэрэн, Д.Уранбилэг нарын хуримын зураг">
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <span class="eyebrow light">БИДНИЙ ХАЙРЫН ӨДӨР</span>
+        <h2>О.Далайцэрэн <i>&</i><br>Д.Уранбилэг</h2>
+        <div class="hero-date">2026 оны 9 сарын 16 · 09:00</div>
+      </div>
+      <button class="music-btn" id="musicBtn" type="button">♫ <span>Хөгжим</span></button>
+    </section>
+
+    <section class="poem-section reveal reveal-left" id="poemSection">
+      <div class="poem-card">
+        <span class="eyebrow">ЕРӨӨЛИЙН ҮГ</span>
+        <p>
+          Алтайн хөглөгөр уулсаас сүлд хийморь буулгаж<br>
+          Аавын алтан өргөөнөөс гал голомтоо ихэрлүүлж<br>
+          Танхил залуу насны тавилан заяа гэрэлтүүлж<br>
+          Тэнгэр бурхны таалал дор наран тооноо өргөж<br>
+          Баранзад хөх огторгуйд аранзад галаа дүрэлзүүлэн<br>
+          Туурга тусгаар Монголдоо нэгэн өрх нэмлээ.
+        </p>
+      </div>
+    </section>
+
+    <section class="paper intro reveal reveal-right" id="invitationTextSection">
+      <div class="section-mark">♥</div>
+      <span class="eyebrow">ЭРХЭМ ХҮНДЭТ ТАНАА</span>
+      <p class="invitation-text">Эрхэм хүндэт таныг хатан сүйхээр заяа зангидаж, хаан бугуйвчаар жаргал нэгтгэж буй бидний <strong>“Гэрлэх ёслолын цайллага”</strong>-д хүрэлцэн ирэхийг урьж байна.</p>
+    </section>
+
+
+
+    <section class="countdown-section reveal reveal-zoom">
+      <span class="eyebrow light">БИДНИЙ ӨДӨР ХҮРТЭЛ</span>
+      <h3>Хүлээлтийн мөч</h3>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Өдөр</span></div>
+        <div><strong id="hours">00</strong><span>Цаг</span></div>
+        <div><strong id="minutes">00</strong><span>Минут</span></div>
+        <div><strong id="seconds">00</strong><span>Секунд</span></div>
+      </div>
+    </section>
+
+    <section class="paper details reveal reveal-left">
+      <div class="details-grid">
+        <article>
+          <span class="detail-icon">01</span>
+          <span class="eyebrow">ОГНОО, ЦАГ</span>
+          <h3>2026.09.16</h3>
+          <p>Лхагва гараг · 09:00 цаг</p>
+        </article>
+        <article>
+          <span class="detail-icon">02</span>
+          <span class="eyebrow">БАЙРШИЛ</span>
+          <h3>Өвөрхангай аймаг</h3>
+          <p>9-р хороо, 33-р гудамж,<br>1008 тоот</p>
+          <a class="btn" href="https://maps.app.goo.gl/9yifPLupx8745LqP6" target="_blank" rel="noopener">Google Maps нээх</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-section reveal reveal-zoom">
+      <div class="section-heading">
+        <span class="eyebrow">ДУРСАМЖ</span>
+        <h3>Бидний зургийн цомог</h3>
+        <p>Нандин мөчүүдээс...</p>
+      </div>
+      <div class="gallery">
+        <figure class="g1"><img src="assets/images/photo-1.jpg" alt="Хосын зураг 1"><figcaption>Хайрын эхлэл</figcaption></figure>
+        <figure class="g2"><img src="assets/images/photo-2.jpg" alt="Хосын зураг 2"><figcaption>Хүлээлтийн нандин мөч</figcaption></figure>
+        <figure class="g3"><img src="assets/images/photo-3.jpg" alt="Хосын зураг 3"><figcaption>Аз жаргалын хүлээлт</figcaption></figure>
+        <figure class="g4"><img src="assets/images/photo-4.jpg" alt="Хосын зураг 4"><figcaption>Дурсамжит аялал</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="program reveal reveal-right">
+      <div class="section-heading light-heading">
+        <span class="eyebrow light">ХӨТӨЛБӨР</span>
+        <h3>Баярын өдрийн дараалал</h3>
+      </div>
+      <div class="timeline">
+        <div><time>09:00</time><p><b>Зочдыг угтан авах</b><span>Хүндэт зочдоо угтаж, бүртгэнэ.</span></p></div>
+        <div><time>09:30</time><p><b>Гэрлэх ёслолын нээлт</b><span>Бэр, хүргэний ёслолын хэсэг эхэлнэ.</span></p></div>
+        <div><time>10:15</time><p><b>Ахмад буурлуудын ерөөл</b><span>Ерөөл, бэлэг дурсгалын мөч.</span></p></div>
+        <div><time>11:00</time><p><b>Дурсгалын зураг</b><span>Гэр бүл, төрөл садан, найз нөхдийн зураг авалт.</span></p></div>
+        <div><time>11:30</time><p><b>Хүндэтгэлийн цайллага</b><span>Зоог, урлагийн хөтөлбөр, баярын мөчүүд.</span></p></div>
+      </div>
+    </section>
+
+    <section class="contact paper reveal reveal-left">
+      <span class="eyebrow">ХОЛБОО БАРИХ</span>
+      <h3>Таныг хүрэлцэн ирэхийг хүндэтгэн хүлээж байна</h3>
+      <div class="phone-row">
+        <a href="tel:85008900"><span>Холбоо барих</span><b>8500 8900</b></a>
+        <a href="tel:85008000"><span>Холбоо барих</span><b>8500 8000</b></a>
+      </div>
+      <a class="btn primary" href="sms:85008900?body=Сайн%20байна%20уу.%20О.Далайцэрэн%20ба%20Д.Уранбилэг%20нарын%20хуримын%20цайллагад%20оролцохоо%20мэдэгдэж%20байна.">SMS-ээр хариу мэдэгдэх</a>
+    </section>
+
+    <footer>
+      <div class="footer-monogram">♥</div>
+      <p>Хайрын хамгийн сайхан өдөрт хамт байгаарай.</p>
+      <strong>О.Далайцэрэн & Д.Уранбилэг</strong>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
